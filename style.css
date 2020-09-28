@@ -131,7 +131,7 @@ footer {
     letter-spacing: 3px;
   }
 
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 1102px) { 
   .left-ninja {
       width: 100%;
     }
