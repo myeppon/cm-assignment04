@@ -131,8 +131,14 @@ footer {
     letter-spacing: 3px;
   }
 
-@media screen and (max-width: 800px) {
-    .left {
+@media screen and (max-width: 800px) { 
+  .left-ninja {
+      width: 100%;
+    }
+    .left-market {
+      width: 100%;
+    }
+    .left-matcha {
       width: 100%;
     }
     .right {
