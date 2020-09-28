@@ -1,0 +1,141 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.topnav {
+    background-color: #242424;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+
+  .topnav a {
+    float: right;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 0.7em;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+  
+  .topnav a:hover {
+    background-color: whitesmoke;
+    color: #242424;
+  }
+
+  .topnav a.active {
+    background-color: #c6a054;
+    color: white;
+  }
+
+
+body {
+  background-color: whitesmoke;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.left-market {
+    float: left;
+    width: 50%;
+    background-image: url("/img/floating-market02.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 60px;
+  }  
+
+  .left-matcha {
+    float: left;
+    width: 50%;
+    background-image: url("/img/matcha.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 60px;
+  }
+
+  .left-ninja {
+    float: left;
+    width: 50%;
+    background-image: url("/img/ninja.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 60px;
+  }
+  
+.right {
+    float: right;
+    width: 40%;
+    margin-top: 80px;
+    margin-right: 50px;
+    padding: 40px;
+  }
+
+h1 {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 2em;
+  color: #c6a054;
+  text-align: left;
+  margin-bottom: 10px;
+  letter-spacing: 6px;
+} 
+
+h2 {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 0.8em;
+  color: #242424;
+  text-align: left;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+
+p {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 2em;
+  color: #242424;
+  text-align: left;
+}
+
+
+footer {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: 2em;
+    color: #c6a054;
+    text-align: left;
+    letter-spacing: 3px;
+  }
+
+@media screen and (max-width: 800px) {
+    .left {
+      width: 100%;
+    }
+    .right {
+        width: 100%;
+      }
+  }
